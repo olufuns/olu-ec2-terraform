@@ -6,7 +6,14 @@ terraform {
       version = "~>6.0"
     }
   }
+
+  backend "s3" {
+    bucket         = "olu1-demo-app"
+    key            = "olu1-ec2/terraform.tfstate"
+    region         = "eu-west-2"
+  } 
 }
+
 
 provider "aws" {
   region = "eu-west-2"
