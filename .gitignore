@@ -5,10 +5,9 @@
 # Terraform state files
 *.tfstate
 *.tfstate.*
+plan.out
 
 # Terraform variable files containing secrets
-*.tfvars
-*.tfvars.json
 
 # Terraform crash logs
 crash.log

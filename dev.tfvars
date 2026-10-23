@@ -1,0 +1,5 @@
+ami = "ami-06cdac14c9c4da91b"
+instance_type = "t3.micro"
+key_name = "funso"
+vpc_id = "vpc-0ea9b12ce1c86f529"
+environment = "dev"
